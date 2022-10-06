@@ -1,0 +1,5 @@
+A engenharia de software é o processo de projectar, criar, testar e manter software. É um campo da engenharia que combina ciência da computação, matemática e gestão de negócios para criar soluções de software eficientes e eficazes.
+
+O primeiro passo na engenharia de software é entender as necessidades do cliente. Isso requer uma análise cuidadosa e documentação dos requisitos do cliente. Uma vez que os requisitos são entendidos, o próximo passo é projectar uma solução que atenda a essas necessidades. A fase de projecto inclui a criação de um modelo do sistema proposto e o desenvolvimento de um plano para implementação.
+
+Após a fase de design vem a implementação, que envolve escrever o código e testá-lo para garantir que ele atenda a todos os requisitos. O teste pode ser feito manualmente ou com ferramentas automatizadas. Finalmente, uma vez que o software é lançado, ele deve ser mantido ao longo do tempo. Isso inclui garantir que ele continue funcionando à medida que novas plataformas de hardware e software forem lançadas e corrigir quaisquer bugs descobertos.
