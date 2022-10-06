@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-import NavLogo from "../public/vercel.svg";
+import NavLogo from "../public/image/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
