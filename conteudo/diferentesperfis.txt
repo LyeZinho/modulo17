@@ -1,0 +1,13 @@
+There are many different types of software development team profiles that can be found in today’s businesses. Each profile has its own unique set of skills and responsibilities. Here is a brief overview of some of the most common profiles:
+
+The project manager is responsible for planning, executing, and monitoring the software development process. They work closely with the development team to ensure that project deadlines are met and that quality standards are met.
+
+The lead developer is responsible for overseeing the development process and ensuring that all code meets the required standards. They also work closely with other developers to provide mentorship and guidance.
+
+The senior developer is responsible for developing high-quality code that meets all requirements. They also provide mentorship and guidance to  junior developers.
+
+The junior developer is responsible for writing code that meets all requirements. They also provide support to the senior developers and help with troubleshooting.
+
+The quality assurance engineer is responsible for ensuring that all code meets the required standards. They also create and execute test plans to find bugs and errors in the code.
+
+The DevOps engineer is responsible for automating and managing the software development process. They work closely with the development team to ensure that all code is properly deployed and that all systems are up and running smoothly.
