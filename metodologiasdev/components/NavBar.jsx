@@ -77,7 +77,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#FA4753] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -90,14 +90,14 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg shadow-red-500 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray-300 my-4">
+            <div className="border-b border-red-700 my-4">
               <p className="w-[85%] md:w-[90%] py-4 font-bold">
-                Vamos evoluir sua carreira!
+                Aprendar a desenvolver software de forma eficiente e eficaz.
               </p>
             </div>
           </div>
