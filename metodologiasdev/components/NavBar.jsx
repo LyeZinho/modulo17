@@ -8,7 +8,7 @@ import NavLogo from "../public/image/logo.svg";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#E9EBED");
+  const [navBg, setNavBg] = useState("#FA4753");
   const [linkColor, setLinkColor] = useState("#1f2937");
 
   const handleNav = () => {
