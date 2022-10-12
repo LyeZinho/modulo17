@@ -9,8 +9,11 @@ const Header = () => {
       <div>
         <h1>Introdução a engenharia de software</h1>
         <br />
-        <p></p>
+        <h7 >A engenharia de software é o processo de projectar, criar, testar e manter software. 
+          <br />
+          É um campo da engenharia que combina ciência da computação, matemática e gestão de negócios para criar soluções de software eficientes e eficazes.</h7>
       </div>
+
       </div>
       <div className="hidden md:block">
         <Image
