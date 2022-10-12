@@ -6,7 +6,11 @@ const Header = () => {
     <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
       <div className="flex flex-col items-center justify-center mt-6 space-x-10 ">
 
-
+      <div>
+        <h1>Introdução a engenharia de software</h1>
+        <br />
+        <p></p>
+      </div>
       </div>
       <div className="hidden md:block">
         <Image
@@ -16,9 +20,7 @@ const Header = () => {
           height={500}
         />
       </div>
-      <div>
-        <h1>Introdução a engenharia de software</h1>
-      </div>
+  
     </div>
   );
 };
