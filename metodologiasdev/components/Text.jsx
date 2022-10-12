@@ -1,10 +1,19 @@
 import React from "react";
+import Image from "next/image";
 
 function Text(props) {
   return (
     <div>
-      <h1 className="" >{props.title}</h1>
-      <p>{props.text}</p>
+      if (props.orientation === "left") {
+        <h1>
+          <Image
+            src={props.image ? }
+            alt={props.alt}
+            width={props.width}
+            height={props.height}
+          />
+        </h1> 
+      }
     </div>
   );
 }
