@@ -53,22 +53,7 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase font-bold hover:border-b pt-2.5">
               <Link href="/">Início</Link>
             </li>
-            <li className="ml-10 text-sm font-bold uppercase hover:border-b pt-2.5">
-              <Link href="/lojavirtualpage">Loja Virtual</Link>
-            </li>
-            <li className="ml-10 text-sm font-bold uppercase hover:border-b pt-2.5">
-              <Link href="/#NossoCheckout">Nosso Checkout</Link>
-            </li>
-            <li className="ml-10 text-sm font-bold uppercase hover:border-b pt-2.5">
-              <Link href="/Lojas">Lojas</Link>
-            </li>
-            <li className="ml-10 text-sm font-bold uppercase hover:border-b pt-2.5">
-              <Link href="/#Dropshipping">Dropshipping</Link>
-            </li>
-            <li className="ml-10 text-sm font-bold uppercase hover:border-b pt-2.5">
-              <Link href="/ajuda">Ajuda</Link>
-            </li>
-  
+
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -123,33 +108,8 @@ const Navbar = () => {
                   Início
                 </li>
               </Link>
-              <Link href="/lojavirtualpage">
-                <li onClick={() => setNav(false)} className="py-4 text-sm font-bold">
-                  Loja Virtual
-                </li>
-              </Link>
-              <Link href="/#Dropshipping">
-                <li onClick={() => setNav(false)} className="py-4 text-sm font-bold">
-                  DropShipping
-                </li>
-              </Link>
-              <Link href="/#NossoCheckout">
-                <li onClick={() => setNav(false)} className="py-4 text-sm font-bold">
-                  Nosso Checkout
-                </li>
-              </Link>
-              <Link href="/Lojas">
-                <li onClick={() => setNav(false)} className="py-4 text-sm font-bold">
-                  Lojas
-                </li>
-              </Link>
-              <Link href="/ajuda">
-                <li onClick={() => setNav(false)} className="py-4 text-sm font-bold">
-                  Ajuda
-                </li>
-              </Link>
 
-             
+     
             </ul>
           </div>
         </div>

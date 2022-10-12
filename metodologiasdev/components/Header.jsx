@@ -12,9 +12,12 @@ const Header = () => {
         <Image
           src="/image/assets/developer.gif"
           alt="Dev gif"
-          width={700}
-          height={400}
+          width={900}
+          height={500}
         />
+      </div>
+      <div>
+        <h1>Introdução a engenharia de software</h1>
       </div>
     </div>
   );
