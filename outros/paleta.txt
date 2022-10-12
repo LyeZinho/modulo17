@@ -1,0 +1,4 @@
+Vermelho: #FA4753
+Branco: #FFFFFF
+Azul Escuro/Preto: #17181C
+Azul claro/Neve escuro: #9BA5C9
