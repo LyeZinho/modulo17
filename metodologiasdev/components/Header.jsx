@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import ContentBox from "./ContentBox";
 
 const Header = () => {
   return (
@@ -23,6 +24,11 @@ const Header = () => {
           eficientes e eficazes.
         </h7>
       </div>
+      <ContentBox 
+        orientation="left"
+        title="Titulo Placeholder"
+        text="Texto Placeholder"
+      />
     </div>
   );
 };
