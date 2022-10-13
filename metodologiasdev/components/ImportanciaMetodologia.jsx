@@ -29,13 +29,12 @@ const ImportanciaMetodologia = () => {
         potenciais e acompanhar o progresso durante o desenvolvimento.
       </h7>
 
-<div className="items-end justify-end">
-<Image
+      <Image
        src="/image/assets/design-and-development-process.svg"
        alt="/"
        width="500"
        height="500"
-      />
+    />
 
 </div>
  
