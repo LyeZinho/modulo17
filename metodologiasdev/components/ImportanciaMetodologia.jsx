@@ -28,12 +28,10 @@ const ImportanciaMetodologia = () => {
         ajudar a avaliar a viabilidade de um projecto, identificar riscos
         potenciais e acompanhar o progresso durante o desenvolvimento.
       </h7>
-      <Image
-       src=""
 
 
-       
       </div>
+      
       </div>
      
     </div>

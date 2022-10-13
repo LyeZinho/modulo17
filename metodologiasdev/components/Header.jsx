@@ -28,11 +28,7 @@ const Header = () => {
         </h7>
         </div>
       </div>
-      <ContentBox 
-        orientation="left"
-        title="Titulo Placeholder"
-        text="Texto Placeholder"
-      />
+
     </div>
   );
 };
