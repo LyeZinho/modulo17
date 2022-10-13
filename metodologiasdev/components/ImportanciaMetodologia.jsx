@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const ImportanciaMetodologia = () => {
   return (
@@ -7,7 +8,7 @@ const ImportanciaMetodologia = () => {
        
         <h1>Importância das Metodologia de Desenvolvimento</h1>
       
-        <div className="flex flex-flow pt-6">
+        <div className="flex flex-row pt-6">
       <h7>
         Metodologias e ferramentas de análise são importantes no desenvolvimento
         de produtos de software porque fornecem uma abordagem estruturada para o
@@ -27,6 +28,11 @@ const ImportanciaMetodologia = () => {
         ajudar a avaliar a viabilidade de um projecto, identificar riscos
         potenciais e acompanhar o progresso durante o desenvolvimento.
       </h7>
+      <Image
+       src=""
+
+
+       
       </div>
       </div>
      
