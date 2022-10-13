@@ -14,27 +14,30 @@ const FerramentasCase = () => {
           />
 
           <div className="flex flex-col">
-            <h2>Importância das Metodologia de Desenvolvimento</h2>
+            <h2>Ferramentas Case</h2>
             <br />
             <h7>
-              Metodologias e ferramentas de análise são importantes no
-              desenvolvimento de produtos de software porque fornecem uma
-              abordagem estruturada para o desenvolvimento de software e ajudam
-              a garantir que todas as etapas necessárias sejam tomadas durante o
-              processo de desenvolvimento.
-              <br />
-              Além disso, metodologias e ferramentas de análise podem ajudar a
-              identificar possíveis problemas no início do processo de
-              desenvolvimento, o que pode economizar tempo e dinheiro
-              posteriormente. Existem muitas metodologias de desenvolvimento de
-              software diferentes disponíveis, e cada uma tem seus próprios
-              pontos fortes e fracos.
-              <br />É importante seleccionar a metodologia que melhor se adapta
-              às necessidades do projecto em questão. Além disso, diferentes
-              ferramentas de análise podem ser usadas para ajudar a avaliar a
-              viabilidade de um projecto, identificar riscos potenciais e
-              acompanhar o progresso durante o desenvolvimento.
+              As ferramentas CASE são ferramentas para engenharia de software, que 
+              são concebidas para ajudar no desenvolvimento, manutenção e reengenharia de 
+              sistemas de software. As ferramentas CASE podem ser utilizadas para uma variedade 
+              de tarefas, tais como recolha de requisitos, planejamento, engenharia inversa, concepção e modelação, 
+              geração de códigos e testes. 
             </h7>
+            <br />
+            <h7>
+              As principais vantagens das ferramentas CASE são:
+            </h7>
+            <ul>
+              <li>
+                ‣ Ajudam a automatizar o processo de desenvolvimento de software.
+              </li>
+              <li>
+                ‣ Melhoram a qualidade dos sistemas de software.
+              </li>
+              <li>
+                ‣ Ajudam a reduzir o custo de desenvolvimento de sistemas de software.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
