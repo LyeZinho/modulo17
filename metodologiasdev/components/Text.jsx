@@ -7,7 +7,7 @@ function Text(props) {
       if (props.orientation === "left") {
         <h1>
           <Image
-            src={props.image ? }
+            src={props.image == null || props.image == "" ? "" : props.image}
             alt={props.alt}
             width={props.width}
             height={props.height}
