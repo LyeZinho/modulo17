@@ -5,10 +5,10 @@ const ImportanciaMetodologia = () => {
   return (
     <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
       <div className="flex flex-col items-left justify-left mt-6 space-x-10 pb-8 pt-8">
-       
+      <div className="flex pt-6">
         <h1>Importância das Metodologia de Desenvolvimento</h1>
       
-        <div className="flex flex-row pt-6">
+        </div>
       <h7>
         Metodologias e ferramentas de análise são importantes no desenvolvimento
         de produtos de software porque fornecem uma abordagem estruturada para o
@@ -29,9 +29,20 @@ const ImportanciaMetodologia = () => {
         potenciais e acompanhar o progresso durante o desenvolvimento.
       </h7>
 
+<div className="items-end justify-end">
+<Image
+       src="/image/assets/design-and-development-process.svg"
+       alt="/"
+       width="500"
+       height="500"
+      />
 
-      </div>
+</div>
+ 
+   
       
+
+
       </div>
      
     </div>
