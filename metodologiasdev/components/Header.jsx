@@ -4,6 +4,14 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
+      <div>
+        <Image
+          src="/image/assets/women-web-developer-with-laptop.svg"
+          alt="/"
+          width="500"
+          height="500"
+        />
+      </div>
       <div className="flex flex-col items-left justify-left mt-6 space-x-10 pb-8 pt-8">
         <h1>Introdução a engenharia de software</h1>
         <br />
