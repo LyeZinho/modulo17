@@ -4,7 +4,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
-      <div>
+      <div className="items-center justify-center">
         <Image
           src="/image/assets/women-web-developer-with-laptop.svg"
           alt="/"
