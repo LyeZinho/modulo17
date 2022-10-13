@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function Text(props) {
+function ContentBox(props) {
   return (
     <div>
       if (props.orientation === "left") {
@@ -45,3 +45,5 @@ function Text(props) {
     </div>
   );
 }
+
+export default ContentBox;
