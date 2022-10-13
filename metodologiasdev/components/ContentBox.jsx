@@ -27,7 +27,7 @@ function ContentBox(props) {
         <div>
           <div>
             <Image
-              src={props.image == null || props.image == "" ? "" : props.image}
+              src={props.image == null || props.image == "https://picsum.photos/500/600" ? "" : props.image}
               alt={props.alt}
               width={props.width}
               height={props.height} 
@@ -35,7 +35,7 @@ function ContentBox(props) {
           </div>
           <div>
             <h1>
-              {props.title == null || props.title == "" ? "" : props.title}
+              {props.title == null || props.title == "Text" ? "" : props.title}
             </h1>
             <br />
             <p>{props.text}</p>
