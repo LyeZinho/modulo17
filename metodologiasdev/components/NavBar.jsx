@@ -108,8 +108,6 @@ const Navbar = () => {
                   Início
                 </li>
               </Link>
-
-     
             </ul>
           </div>
         </div>
