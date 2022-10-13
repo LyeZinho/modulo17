@@ -6,6 +6,7 @@ const ImportanciaMetodologia = () => {
     <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
       <div className="flex flex-col  items-center justify-center mt-6 space-x-10 pb-8 pt-8">
         <div className="flex pt-6">
+          
           <div className="flex flex-col">
             <h2>Importância das Metodologia de Desenvolvimento</h2>
          <br />   
@@ -30,16 +31,16 @@ const ImportanciaMetodologia = () => {
             </h7>
           </div>
 
- 
+          <Image
+          src="/image/assets/design-and-development-process.svg"
+          alt="/"
+          width="900"
+          height="900"
+        />
           
         </div>
 
-        <Image
-          src="/image/assets/design-and-development-process.svg"
-          alt="/"
-          width="500"
-          height="500"
-        />
+
       </div>
     </div>
   );
