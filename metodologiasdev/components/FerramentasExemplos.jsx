@@ -12,9 +12,8 @@ const FerramentasCaseExemplos = () => {
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
        
           <h2>Exemplos de Ferramentas CASE</h2>
-          <br />
-        </div>
-
+        
+<br />
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -49,7 +48,6 @@ const FerramentasCaseExemplos = () => {
             </div>
           </div>
 
-         
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -60,6 +58,7 @@ const FerramentasCaseExemplos = () => {
               </div>
             </div>
           </div> 
+      </div>
       </div>
     </div>
   );
