@@ -8,6 +8,7 @@ import DiferentesPerfis from "../components/DiferentesPerfis"
 import CiclodevidaDev from "../components/CiclodevidaDev"
 import Agile from "../components/Agile"
 import CaracteristicasSoftware from "../components/CaracteristicasSoftware"
+import FerramentasCaseExemplos from "../components/FerramentasExemplos"
 
 export default function Home() {
   return (
@@ -21,8 +22,8 @@ export default function Home() {
       <Scrum />
       <Agile />
       <FerramentasCase />
+      <FerramentasCaseExemplos />
       <Setinha />
     </div>
-
   )
 }
