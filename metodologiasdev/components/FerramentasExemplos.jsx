@@ -8,7 +8,7 @@ import Vscode from "../public/image/assets/vscode.svg";
 
 const FerramentasCaseExemplos = () => {
   return (
-    <div id="CaseExemplos" className="w-full sm:h-screen pt-[200px]">
+    <div id="CaseExemplos" className="w-full sm:h-screen ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2>Exemplos de Ferramentas CASE</h2>
 

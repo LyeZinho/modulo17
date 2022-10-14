@@ -1,8 +1,9 @@
 import React from "react";
+import Image from "next/image";
 
 const Agile = () => {
   return (
-    <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
+    <div id="agile" className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
       <div className="flex flex-col  items-center justify-center mt-6 space-x-10 pb-8 pt-8">
         <div className="flex pt-6">
           <div className="flex flex-col">
@@ -40,7 +41,18 @@ const Agile = () => {
               4) Responder a mudanças mais que seguir um plano;
             </h7>
           </div>
+          <div className="pt-[100px]">
+          <Image
+         
+         src="/image/assets/agile.svg"
+         alt="/"
+         width="700"
+         height="700"
+       />
+          </div>
+        
         </div>
+
       </div>
     </div>
   );

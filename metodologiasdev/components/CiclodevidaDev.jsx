@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const CiclodevidaDev = () => {
   return (
-    <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
+    <div id="ciclodevida" className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
       <div className="flex flex-col  items-center justify-center mt-6 space-x-10 pb-8 pt-8">
         <div className="flex pt-6">
-          <Image src="" alt="/" width="900" height="900" />
+         
           <div className="flex flex-col">
             <h2>Ciclo de vida de desenvolvimento de software</h2>
             <br />
@@ -69,7 +69,17 @@ const CiclodevidaDev = () => {
               </li>
             </ul>
           </div>
+          <div className="pt-[200px]">
+          <Image
+              src="/image/assets/SDLC-1.png"
+              alt="/"
+              width="800"
+              height="800"
+            />
+          </div>
+          
         </div>
+
       </div>
     </div>
   );

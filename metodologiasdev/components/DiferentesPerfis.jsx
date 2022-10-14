@@ -4,15 +4,10 @@ import Image from "next/image";
 
 const DiferentesPerfis = () => {
   return (
-    <div className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
+    <div id="perfis" className="min-h-full flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8 ">
       <div className="flex flex-col  items-center justify-center mt-6 space-x-10 pb-8 pt-8">
         <div className="flex pt-6">
-          <Image
-              src=""
-              alt="/"
-              width="900"
-              height="900"
-            />
+ 
           <div className="flex flex-col">
             <h2>Diferentes Perfis</h2>
             <br />
@@ -64,8 +59,16 @@ const DiferentesPerfis = () => {
               todo o código é devidamente implementado e que todos os sistemas
               estão a funcionar sem problemas.
             </h7>
+            
           </div>
+          <Image
+              src="/image/assets/website-designing.png"
+              alt="/"
+              width="1100"
+              height="9 00"
+            />
         </div>
+
       </div>
     </div>
   );

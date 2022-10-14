@@ -49,9 +49,38 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase font-bold hover:border-b pt-2.5">
+            <li className="ml-5 text-sm uppercase font-bold hover:border-b  pt-2.5">
               <Link href="/">Início</Link>
             </li>
+            <li className="ml-5 text-sm uppercase font-bold hover:border-b  pt-2.5">
+              <Link href="/#engenhariadesoftware">Engenharia de Software</Link>
+            </li>
+            <li className="ml-5 text-sm uppercase font-bold hover:border-b  pt-2.5">
+              <Link href="/#perfis">Perfis</Link>
+            </li>
+            <li className="ml-5 text-sm uppercase font-bold hover:border-b  pt-2.5">
+              <Link href="/#ciclodevida">SDLC</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase font-bold hover:border-b  pt-2.5">
+              <Link href="/#caracteristicasSoftware">Natureza dos Softwares</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase font-bold hover:border-b  pt-2.5">
+              <Link href="/#importanciametodologia">Importância das metodologias</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase font-bold hover:border-b  pt-2.5">
+              <Link href="/#scrum">SCRUM</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase font-bold hover:border-b  pt-2.5">
+              <Link href="/#agile">Agile</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase font-bold hover:border-b px-2.5  pt-2.5">
+              <Link href="/#Case">Ferramentas Case</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase font-bold hover:border-b px-2.5  pt-2.5">
+              <Link href="/creditos">Créditos</Link>
+            </li>
+
+
           </ul>
           {/* Hamburger Icon */}
           <div
