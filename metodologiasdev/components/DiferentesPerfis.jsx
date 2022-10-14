@@ -61,12 +61,15 @@ const DiferentesPerfis = () => {
             </h7>
             
           </div>
+          <div className="pt-[200px]">
           <Image
               src="/image/assets/website-designing.png"
               alt="/"
-              width="1100"
-              height="9 00"
+              width="1000"
+              height="1000"
             />
+          </div>
+
         </div>
 
       </div>
