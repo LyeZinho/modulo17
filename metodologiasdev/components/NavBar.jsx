@@ -39,7 +39,6 @@ const Navbar = () => {
         <Link href="/">
           <a>
             <Image
-
               src={NavLogo}
               alt="/"
               width="75"
@@ -53,7 +52,6 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase font-bold hover:border-b pt-2.5">
               <Link href="/">Início</Link>
             </li>
-
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -104,7 +102,10 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm font-bold">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm font-bold"
+                >
                   Início
                 </li>
               </Link>
