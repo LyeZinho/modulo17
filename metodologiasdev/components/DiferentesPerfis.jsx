@@ -14,7 +14,7 @@ const DiferentesPerfis = () => {
               height="900"
             />
           <div className="flex flex-col">
-            <h2>Importância das Metodologia de Desenvolvimento</h2>
+            <h2>Diferentes Perfis</h2>
             <br />
             <h7>
               Existem muitos tipos diferentes de perfis de equipas de
