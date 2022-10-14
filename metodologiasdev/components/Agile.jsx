@@ -33,7 +33,7 @@ const Agile = () => {
               O Manifesto Ágil consiste em quatro valores:
               <br />
               1) Indivíduos e interações mais que processos e ferramentas;
-              <br />  
+              <br />
               2) Software funcionando mais que documentação abrangente;
               <br />
               3) Colaboração do cliente mais que negociação de contratos;
