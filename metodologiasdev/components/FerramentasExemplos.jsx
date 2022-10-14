@@ -8,12 +8,12 @@ import Vscode from "../public/image/assets/vscode.svg";
 
 const FerramentasCaseExemplos = () => {
   return (
-    <div className="flex flex-col  items-center justify-center mt-6 space-x-10 pb-8 pt-8">
-      <div className="flex pt-6">
-        <div className="flex flex-col">
+    <div id="CaseExemplos" className="w-full sm:h-screen pt-[200px]">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+       
           <h2>Exemplos de Ferramentas CASE</h2>
-          <br />
-        </div>
+        
+<br />
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -36,8 +36,29 @@ const FerramentasCaseExemplos = () => {
               </div>
             </div>
           </div>
-          
-        </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Reactlogo} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Vscode} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>VS code</h3>
+              </div>
+            </div>
+          </div> 
+      </div>
       </div>
     </div>
   );
