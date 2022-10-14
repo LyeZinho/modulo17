@@ -1,13 +1,13 @@
-Case tools are computer-aided software engineering (CASE) tools. They are designed to aid in the development, maintenance and reengineering of software systems. CASE tools can be used for a variety of tasks such as requirements gathering, reverse engineering, design and modeling, code generation and testing. 
+As ferramentas de caso são ferramentas de engenharia de software assistido por computador (CASE). São concebidas para ajudar no desenvolvimento, manutenção e reengenharia de sistemas de software. As ferramentas CASE podem ser utilizadas para uma variedade de tarefas, tais como recolha de requisitos, engenharia inversa, concepção e modelação, geração de códigos e testes. 
 
 
-There are different groups of CASE tools: 
-1) Requirements management tools help to gather, track and manage software requirements. 
-2) Reverse engineering tools assist in the understanding of existing software systems. 
-3) Design and modeling tools help in the creation of new software designs. 
-4) Testing tools help verify the correctness of software systems.  
+Existem diferentes grupos de ferramentas CASE: 
+1) As ferramentas de gestão de requisitos ajudam a reunir, acompanhar e gerir os requisitos de software. 
+2) As ferramentas de engenharia inversa ajudam na compreensão dos sistemas de software existentes. 
+3) Ferramentas de desenho e modelação ajudam na criação de novos desenhos de software. 
+4) As ferramentas de teste ajudam a verificar a correcção dos sistemas de software.  
 
-The main advantages of using CASE tools are: 
-1) They help to automate the software development process. 
-2) They improve the quality of software systems. 
-3) They help to reduce the cost of developing software systems.
+As principais vantagens da utilização de ferramentas CASE são: 
+1) Ajudam a automatizar o processo de desenvolvimento do software. 
+2) Melhoram a qualidade dos sistemas de software. 
+3) Ajudam a reduzir o custo de desenvolvimento de sistemas de software.
