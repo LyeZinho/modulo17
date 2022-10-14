@@ -128,16 +128,90 @@ const Navbar = () => {
               </p>
             </div>
           </div>
-          <div className="py-4 flex flex-col">
+          <div className="py-2 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
                 <li
                   onClick={() => setNav(false)}
-                  className="py-4 text-sm font-bold"
+                  className="py-2 text-sm font-bold"
                 >
                   Início
                 </li>
               </Link>
+                <Link href="/#engenhariadesoftware">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  Engenharia de Software
+                </li>
+              </Link>
+              <Link href="/#perfis">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  Perfis
+                </li>
+              </Link>
+              <Link href="/#ciclodevida">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  SDLC
+                </li>
+              </Link>
+              <Link href="/#caracteristicasSoftware">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  Natureza dos Softwares
+                </li>
+              </Link>
+              <Link href="/#importanciametodologia">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  Importância das metodologias
+                </li>
+              </Link>
+              <Link href="/#scrum">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  SCRUM
+                </li>
+              </Link>
+              <Link href="/#agile">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  Agile
+                </li>
+              </Link>
+              <Link href="/#Case">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-2 text-sm font-bold"
+                >
+                  Ferramentas Case
+                </li>
+              </Link>
+              <Link href="/creditos">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm font-bold"
+                >
+                  Créditos
+                </li>
+              </Link> 
+
+              
             </ul>
           </div>
         </div>

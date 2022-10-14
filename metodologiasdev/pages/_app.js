@@ -7,7 +7,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Metodologias Dev</title>
         <meta name="description" content="Metodologias Dev" />
-        <link rel="icon" href="../public/image/logo.svg" />
+        <link rel="shortcut icon" href="/image/favicon.ico" />
+        <link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico"/>
+
       </Head>
   <Navbar/>
   
